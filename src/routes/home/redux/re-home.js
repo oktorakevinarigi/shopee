@@ -3,7 +3,8 @@ import * as types from '../../../redux/ActionType'
 const initState = {
     dataSource: [],
     form: {
-        nama: 'nama'
+        nominal: 10,
+        filter: 'CAD'
     }
 };
 
@@ -19,7 +20,7 @@ export default function (state = initState, action) {
                 ...state,
                 form: {
                     ...state.form,
-                    [action.payload]: action.value
+                    [action.property]: action.value
                 }
             };
         default:

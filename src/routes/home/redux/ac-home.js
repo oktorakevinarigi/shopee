@@ -5,3 +5,11 @@ export const getData = () => {
         type: types.HOME_GET_DATA_REQUEST
     })
 }
+
+export const handleState = (property, value) => {
+    return ({
+        type: types.HOME_HANDLE_STATE,
+        property,
+        value
+    })
+}
