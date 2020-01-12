@@ -1,0 +1,50 @@
+
+.herader{
+    background-color: #40a9ff;
+    height: 100px
+}
+
+.lineHeader{
+    line-height: 3;
+}
+
+.content{
+    min-height: 600px;
+    padding-bottom: 50px;
+}
+
+.contentBlock{
+    margin: 30px 50px 0px 50px;
+}
+
+.contentCard{
+    margin: 0 0 50px 0;
+}
+
+.cardBlock{
+    display: flex; 
+    flex-direction: row;
+}
+
+.cardHeader{
+    display: flex;
+    line-height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cardLabel{
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.cardRemove{
+    width: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
