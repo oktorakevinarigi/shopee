@@ -69,12 +69,13 @@ export default function Home() {
     return (
         <Layout>
             <Header className='herader'>
-                <div className='lineHeader'>USD - United States Dollars</div>
-                <div style={{ lineHeight: '3', display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                <div className='lineHeader fontStyle'>USD - United States Dollars</div>
+                <div className='boxInput'>
                     <div className='lineHeader'>USD</div>
-                    <div className='lineHeader'>
+                    <div className='lineHeader' style={{display:'flex', alignItems:'center'}}>
                         <InputNumber
                             defaultValue={stateHome.form.nominal}
+                            size='large'
                             formatter={value => value.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
                             parser={value => value.replace(/(,*)/g, '')}
                             onChange={(value) => onChange('nominal', value)}
@@ -90,7 +91,7 @@ export default function Home() {
                         CompCard()
                     }
                     <Row type='flex' justify='end'>
-                        <Col span={19}>
+                        <Col span={21}>
                             <Select
                                 mode="multiple"
                                 placeholder="Add more Currencies"
@@ -107,8 +108,8 @@ export default function Home() {
                                 }
                             </Select>
                         </Col>
-                        <Col span={5}>
-                            <Button type="primary" style={{marginLeft:'10px'}} onClick={submit}>Submit</Button>
+                        <Col span={3} style={{display:'flex', justifyContent:'flex-end'}}>
+                            <Button type="primary" onClick={submit}>Submit</Button>
                         </Col>
                     </Row>
                 </div>

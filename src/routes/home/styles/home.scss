@@ -5,7 +5,20 @@
 }
 
 .lineHeader{
-    line-height: 3;
+    line-height: 45px;
+}
+
+.fontStyle{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.boxInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .content{
