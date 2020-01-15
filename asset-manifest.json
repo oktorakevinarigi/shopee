@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/shopee/static/css/main.a39aa09a.chunk.css",
+    "main.js": "/shopee/static/js/main.3d4198dd.chunk.js",
+    "main.js.map": "/shopee/static/js/main.3d4198dd.chunk.js.map",
+    "runtime-main.js": "/shopee/static/js/runtime-main.05fd3c03.js",
+    "runtime-main.js.map": "/shopee/static/js/runtime-main.05fd3c03.js.map",
+    "static/css/2.35f98baf.chunk.css": "/shopee/static/css/2.35f98baf.chunk.css",
+    "static/js/2.09e7c262.chunk.js": "/shopee/static/js/2.09e7c262.chunk.js",
+    "static/js/2.09e7c262.chunk.js.map": "/shopee/static/js/2.09e7c262.chunk.js.map",
+    "index.html": "/shopee/index.html",
+    "precache-manifest.a1a69819c62c722e992c5a7e86d8f8fa.js": "/shopee/precache-manifest.a1a69819c62c722e992c5a7e86d8f8fa.js",
+    "service-worker.js": "/shopee/service-worker.js",
+    "static/css/2.35f98baf.chunk.css.map": "/shopee/static/css/2.35f98baf.chunk.css.map",
+    "static/css/main.a39aa09a.chunk.css.map": "/shopee/static/css/main.a39aa09a.chunk.css.map",
+    "static/js/2.09e7c262.chunk.js.LICENSE": "/shopee/static/js/2.09e7c262.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05fd3c03.js",
+    "static/css/2.35f98baf.chunk.css",
+    "static/js/2.09e7c262.chunk.js",
+    "static/css/main.a39aa09a.chunk.css",
+    "static/js/main.3d4198dd.chunk.js"
+  ]
+}
