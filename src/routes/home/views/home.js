@@ -69,7 +69,7 @@ export default function Home() {
     return (
         <Layout>
             <Header className='herader'>
-                <div className='lineHeader fontStyle'>USD - United States Dollars</div>
+                <div className='lineHeader fontStyle'>USD - United States Dollarss</div>
                 <div className='boxInput'>
                     <div className='lineHeader'>USD</div>
                     <div className='lineHeader' style={{display:'flex', alignItems:'center'}}>
